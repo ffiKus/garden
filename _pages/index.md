@@ -5,17 +5,21 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# Wassup! 😎
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
+Пишу музыку, иногда делаю видео и фото приколы.
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+<strong>Ссылки:</strong>
+- [Telegram](https://t.me/dierehart)
+- [SoundCloud](https://soundcloud.com/joyeuxrouge)
+- [YouTube](https://www.youtube.com/@joyeuxrougem)
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+<strong>Содержание:</strong>
+- [[Музыка]]
+- [[Видео]]
+- [[Фото]]
 
-<strong>Recently updated notes</strong>
+<strong>Недавно обновленные заметки:</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
